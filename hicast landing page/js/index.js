@@ -1,9 +1,10 @@
 'use strict';
 
-jQuery('.at-banner__close').on('click', function () {
-  jQuery(this).parent().remove();
+jQuery('.at-banner__close').on('click', function() {
+  jQuery(this)
+    .parent()
+    .remove();
 });
-
 
 let passwordInput = document.getElementById('txtPassword'),
   toggle = document.getElementById('btnToggle');
