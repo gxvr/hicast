@@ -1,6 +1,6 @@
 /*FONTS - RALEWAY*/
 
-@@font-face {
+@font-face {
   font-family: 'Raleway';
   src: url('../fonts/Raleway/Raleway-Regular.ttf');
 }
@@ -236,9 +236,6 @@ img {
   /*! box-shadow: 0 12px 32px 0 rgba(218, 193, 58, 0.57); */
 }
 
-.btn:hover {
-}
-
 .btn-primary {
   background: #23e986;
 }
@@ -283,10 +280,6 @@ nav {
   display: inline-block;
   margin-top: 30px;
   margin-left: 57px;
-}
-
-.nav-module.left {
-  /*! float: right; */
 }
 
 .nav-module.right {
@@ -371,7 +364,7 @@ nav {
   z-index: 10;
 }
 
-. .nav--fixed,
+.nav--fixed,
 .nav--absolute {
   width: 100%;
   z-index: 99;
